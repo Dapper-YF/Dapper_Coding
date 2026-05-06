@@ -1,0 +1,239 @@
+{
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "q_identity",
+      "order": 1,
+      "text": "你目前的身份是？",
+      "type": "single_choice",
+      "options": [
+        {"id": "student", "text": "在校学生", "next_id": "q_major"},
+        {"id": "worker", "text": "在职人员", "next_id": "q_field"},
+        {"id": "hobbyist", "text": "编程爱好者", "next_id": "q_interest"}
+      ]
+    },
+    {
+      "id": "q_major",
+      "order": 2,
+      "text": "你的专业是？",
+      "type": "single_choice",
+      "options": [
+        {"id": "cs", "text": "计算机/软件工程", "next_id": "q_cs_branch"},
+        {"id": "other", "text": "其他专业", "next_id": "q_interest"}
+      ]
+    },
+    {
+      "id": "q_field",
+      "order": 2,
+      "text": "你从事什么领域？",
+      "type": "single_choice",
+      "options": [
+        {"id": "it_dev", "text": "IT 开发", "next_id": "q_it_level"},
+        {"id": "it_other", "text": "IT 相关（运维/测试/产品）", "next_id": "q_interest"},
+        {"id": "non_it", "text": "非 IT，想转行", "next_id": "q_interest"}
+      ]
+    },
+    {
+      "id": "q_it_level",
+      "order": 3,
+      "text": "你的 IT 水平是？",
+      "type": "single_choice",
+      "options": [
+        {"id": "junior", "text": "初学者/Junior", "next_id": "q_interest"},
+        {"id": "mid", "text": "中级开发者", "next_id": "q_interest"},
+        {"id": "senior", "text": "高级/架构", "next_id": "q_interest"}
+      ]
+    },
+    {
+      "id": "q_interest",
+      "order": 3,
+      "text": "你对哪些领域感兴趣？（选 1-3 个）",
+      "type": "multi_choice",
+      "max_select": 3,
+      "options": [
+        {"id": "cs", "text": "计算机科学", "next_id": "q_cs_branch"},
+        {"id": "physics", "text": "物理", "next_id": "q_physics_branch"},
+        {"id": "math", "text": "数学", "next_id": "q_math_branch"},
+        {"id": "other", "text": "其他领域", "next_id": "q_other_field"}
+      ]
+    },
+    {
+      "id": "q_cs_branch",
+      "order": 4,
+      "text": "计算机科学中你最想深入哪个方向？",
+      "type": "multi_choice",
+      "max_select": 2,
+      "options": [
+        {"id": "cs_ai", "text": "人工智能", "next_id": "q_cs_ai_detail"},
+        {"id": "cs_web", "text": "Web 开发", "next_id": "q_cs_web_detail"},
+        {"id": "cs_backend", "text": "后端开发", "next_id": "q_cs_backend_detail"},
+        {"id": "cs_mobile", "text": "移动开发", "next_id": "q_cs_mobile_detail"},
+        {"id": "cs_game", "text": "游戏开发", "next_id": "q_cs_game_detail"},
+        {"id": "cs_algo", "text": "算法与数据结构", "next_id": "q_cs_level"},
+        {"id": "cs_security", "text": "网络安全", "next_id": "q_cs_level"},
+        {"id": "cs_data", "text": "数据科学", "next_id": "q_cs_level"},
+        {"id": "cs_unsure", "text": "我还不确定具体方向", "next_id": "q_cs_level"}
+      ]
+    },
+    {
+      "id": "q_cs_ai_detail",
+      "order": 5,
+      "text": "AI 里你最感兴趣的是？",
+      "type": "multi_choice",
+      "max_select": 2,
+      "options": [
+        {"id": "cs_ai_ml", "text": "机器学习基础", "next_id": "q_cs_level"},
+        {"id": "cs_ai_dl", "text": "深度学习", "next_id": "q_cs_level"},
+        {"id": "cs_ai_nlp", "text": "自然语言处理 / 大语言模型", "next_id": "q_cs_level"},
+        {"id": "cs_ai_cv", "text": "计算机视觉", "next_id": "q_cs_level"},
+        {"id": "cs_ai_rl", "text": "强化学习", "next_id": "q_cs_level"},
+        {"id": "cs_ai_unsure", "text": "我不确定", "next_id": "q_cs_level"}
+      ]
+    },
+    {
+      "id": "q_cs_web_detail",
+      "order": 5,
+      "text": "Web 开发你更倾向哪个方向？",
+      "type": "multi_choice",
+      "max_select": 2,
+      "options": [
+        {"id": "cs_web_fe", "text": "前端（React/Vue）", "next_id": "q_cs_level"},
+        {"id": "cs_web_be", "text": "后端（Node/Python/Go）", "next_id": "q_cs_level"},
+        {"id": "cs_web_full", "text": "全栈", "next_id": "q_cs_level"},
+        {"id": "cs_web_unsure", "text": "我不确定", "next_id": "q_cs_level"}
+      ]
+    },
+    {
+      "id": "q_cs_backend_detail",
+      "order": 5,
+      "text": "后端开发你熟悉哪个技术栈？",
+      "type": "multi_choice",
+      "max_select": 2,
+      "options": [
+        {"id": "cs_backend_python", "text": "Python (Django/Flask/FastAPI)", "next_id": "q_cs_level"},
+        {"id": "cs_backend_java", "text": "Java (Spring)", "next_id": "q_cs_level"},
+        {"id": "cs_backend_go", "text": "Go", "next_id": "q_cs_level"},
+        {"id": "cs_backend_node", "text": "Node.js", "next_id": "q_cs_level"},
+        {"id": "cs_backend_unsure", "text": "我不确定", "next_id": "q_cs_level"}
+      ]
+    },
+    {
+      "id": "q_cs_mobile_detail",
+      "order": 5,
+      "text": "移动开发你倾向哪个平台？",
+      "type": "multi_choice",
+      "max_select": 2,
+      "options": [
+        {"id": "cs_mobile_android", "text": "Android (Kotlin)", "next_id": "q_cs_level"},
+        {"id": "cs_mobile_ios", "text": "iOS (Swift)", "next_id": "q_cs_level"},
+        {"id": "cs_mobile_cross", "text": "跨平台（Flutter/React Native）", "next_id": "q_cs_level"},
+        {"id": "cs_mobile_unsure", "text": "我不确定", "next_id": "q_cs_level"}
+      ]
+    },
+    {
+      "id": "q_cs_game_detail",
+      "order": 5,
+      "text": "游戏开发你熟悉哪个引擎？",
+      "type": "multi_choice",
+      "max_select": 2,
+      "options": [
+        {"id": "cs_game_unity", "text": "Unity (C#)", "next_id": "q_cs_level"},
+        {"id": "cs_game_unreal", "text": "Unreal Engine (C++)", "next_id": "q_cs_level"},
+        {"id": "cs_game_indie", "text": "独立游戏/轻量引擎", "next_id": "q_cs_level"},
+        {"id": "cs_game_unsure", "text": "我不确定", "next_id": "q_cs_level"}
+      ]
+    },
+    {
+      "id": "q_cs_level",
+      "order": 99,
+      "text": "在选中的领域里，你的实际水平是？",
+      "type": "single_choice",
+      "options": [
+        {"id": "level_beginner", "text": "零基础/刚入门", "next_id": "q_goal"},
+        {"id": "level_intermediate", "text": "有一定基础，能做简单项目", "next_id": "q_goal"},
+        {"id": "level_advanced", "text": "有经验，想深入进阶", "next_id": "q_goal"},
+        {"id": "level_unsure", "text": "不确定自己水平", "next_id": "q_goal"}
+      ]
+    },
+    {
+      "id": "q_physics_branch",
+      "order": 4,
+      "text": "物理中你最感兴趣的方向是？",
+      "type": "multi_choice",
+      "max_select": 2,
+      "options": [
+        {"id": "physics_mech", "text": "力学", "next_id": "q_physics_level"},
+        {"id": "physics_em", "text": "电磁学", "next_id": "q_physics_level"},
+        {"id": "physics_quantum", "text": "量子物理", "next_id": "q_physics_level"},
+        {"id": "physics_thermo", "text": "热力学", "next_id": "q_physics_level"},
+        {"id": "physics_optics", "text": "光学", "next_id": "q_physics_level"},
+        {"id": "physics_rel", "text": "相对论", "next_id": "q_physics_level"},
+        {"id": "physics_unsure", "text": "我不确定", "next_id": "q_physics_level"}
+      ]
+    },
+    {
+      "id": "q_physics_level",
+      "order": 99,
+      "text": "在选中的物理领域里，你的实际水平是？",
+      "type": "single_choice",
+      "options": [
+        {"id": "level_beginner", "text": "零基础/刚入门", "next_id": "q_goal"},
+        {"id": "level_intermediate", "text": "学过基础，能做简单计算", "next_id": "q_goal"},
+        {"id": "level_advanced", "text": "有深入理解，想进阶", "next_id": "q_goal"},
+        {"id": "level_unsure", "text": "不确定自己水平", "next_id": "q_goal"}
+      ]
+    },
+    {
+      "id": "q_math_branch",
+      "order": 4,
+      "text": "数学中你最感兴趣的方向是？",
+      "type": "multi_choice",
+      "max_select": 2,
+      "options": [
+        {"id": "math_calculus", "text": "微积分", "next_id": "q_math_level"},
+        {"id": "math_linalg", "text": "线性代数", "next_id": "q_math_level"},
+        {"id": "math_prob", "text": "概率统计", "next_id": "q_math_level"},
+        {"id": "math_discrete", "text": "离散数学", "next_id": "q_math_level"},
+        {"id": "math_de", "text": "微分方程", "next_id": "q_math_level"},
+        {"id": "math_abstract", "text": "抽象代数", "next_id": "q_math_level"},
+        {"id": "math_other", "text": "其他", "next_id": "q_math_level"},
+        {"id": "math_unsure", "text": "我不确定", "next_id": "q_math_level"}
+      ]
+    },
+    {
+      "id": "q_math_level",
+      "order": 99,
+      "text": "在选中的数学领域里，你的实际水平是？",
+      "type": "single_choice",
+      "options": [
+        {"id": "level_beginner", "text": "零基础/刚入门", "next_id": "q_goal"},
+        {"id": "level_intermediate", "text": "学过基础，能做练习题", "next_id": "q_goal"},
+        {"id": "level_advanced", "text": "有深入理解，想进阶", "next_id": "q_goal"},
+        {"id": "level_unsure", "text": "不确定自己水平", "next_id": "q_goal"}
+      ]
+    },
+    {
+      "id": "q_other_field",
+      "order": 4,
+      "text": "请描述你感兴趣的领域",
+      "type": "single_choice",
+      "options": [
+        {"id": "other_specified", "text": "（APP 提供自由输入框）", "next_id": "q_goal"}
+      ]
+    },
+    {
+      "id": "q_goal",
+      "order": 100,
+      "text": "你学习的主要目标是？",
+      "type": "multi_choice",
+      "max_select": 2,
+      "options": [
+        {"id": "goal_career", "text": "求职/转行", "next_id": null},
+        {"id": "goal_project", "text": "完成具体项目", "next_id": null},
+        {"id": "goal_theory", "text": "理论深入理解", "next_id": null},
+        {"id": "goal_exam", "text": "考试/升学", "next_id": null},
+        {"id": "goal_hobby", "text": "纯粹兴趣", "next_id": null}
+      ]
+    }
+  ]
+}

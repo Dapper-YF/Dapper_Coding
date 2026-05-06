@@ -1,0 +1,424 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-04-30",
+  "description": "Learning Scout 训练题库，支持快速复测和质量追踪",
+  "total": 33,
+  "questions": [
+    {
+      "id": "Q1",
+      "question": "光合作用是怎么进行的？",
+      "expected_tags": [
+        "光合作用",
+        "叶绿体",
+        "光反应",
+        "暗反应",
+        "C3/C4"
+      ],
+      "difficulty": "medium",
+      "category": "science"
+    },
+    {
+      "id": "Q5",
+      "question": "什么是RESTful API？它和普通API有什么区别？",
+      "expected_tags": [
+        "REST",
+        "API",
+        "HTTP方法",
+        "资源",
+        "状态码"
+      ],
+      "difficulty": "medium",
+      "category": "tech"
+    },
+    {
+      "id": "Q6",
+      "question": "Python里list和tuple有什么区别？什么时候该用哪个？",
+      "expected_tags": [
+        "list",
+        "tuple",
+        "不可变",
+        "可变",
+        "性能"
+      ],
+      "difficulty": "easy",
+      "category": "tech"
+    },
+    {
+      "id": "Q7",
+      "question": "快速排序是怎么实现的？能写个代码吗？",
+      "expected_tags": [
+        "快速排序",
+        "分治",
+        "递归",
+        "时间复杂度",
+        "pivot"
+      ],
+      "difficulty": "hard",
+      "category": "tech"
+    },
+    {
+      "id": "Q9",
+      "question": "Git rebase和merge有什么区别？各自适用什么场景？",
+      "expected_tags": [
+        "Git",
+        "rebase",
+        "merge",
+        "分支",
+        "版本控制"
+      ],
+      "difficulty": "medium",
+      "category": "tech"
+    },
+    {
+      "id": "Q2",
+      "question": "为什么天是蓝色的？",
+      "expected_tags": [
+        "瑞利散射",
+        "蓝光",
+        "大气层",
+        "波长"
+      ],
+      "difficulty": "medium",
+      "category": "science"
+    },
+    {
+      "id": "Q4",
+      "question": "相对论和时间膨胀是什么关系？",
+      "expected_tags": [
+        "相对论",
+        "时间膨胀",
+        "光速",
+        "参考系"
+      ],
+      "difficulty": "hard",
+      "category": "science"
+    },
+    {
+      "id": "Q10",
+      "question": "为什么中国的大江大河都是向东流？",
+      "expected_tags": [
+        "地形",
+        "地势",
+        "西高东低",
+        "水系"
+      ],
+      "difficulty": "easy",
+      "category": "science"
+    },
+    {
+      "id": "Q11",
+      "question": "如何在Excel里实现自动筛选并高亮重复项？",
+      "expected_tags": [
+        "Excel",
+        "条件格式",
+        "筛选",
+        "重复"
+      ],
+      "difficulty": "easy",
+      "category": "practical"
+    },
+    {
+      "id": "Q29",
+      "question": "人工智能是如何通过大量数据学习的？",
+      "expected_tags": [
+        "机器学习",
+        "神经网络",
+        "训练",
+        "梯度下降"
+      ],
+      "difficulty": "medium",
+      "category": "tech"
+    },
+    {
+      "id": "Q30",
+      "question": "大数据分析主要用在哪些场景？",
+      "expected_tags": [
+        "大数据",
+        "数据分析",
+        "推荐系统",
+        "风控"
+      ],
+      "difficulty": "medium",
+      "category": "tech"
+    },
+    {
+      "id": "Q31",
+      "question": "什么是非关系型数据库？",
+      "expected_tags": [
+        "NoSQL",
+        "MongoDB",
+        "Redis",
+        "KV存储"
+      ],
+      "difficulty": "medium",
+      "category": "tech"
+    },
+    {
+      "id": "Q8",
+      "question": "从经济学角度分析，为什么手机越来越便宜而房子越来越贵？",
+      "expected_tags": [
+        "供需",
+        "通货膨胀",
+        "摩尔定律",
+        "房产",
+        "经济学"
+      ],
+      "difficulty": "hard",
+      "category": "analysis"
+    },
+    {
+      "id": "Q12",
+      "question": "怎样给父母解释什么是区块链？",
+      "expected_tags": [
+        "区块链",
+        "去中心化",
+        "分布式",
+        "比特币",
+        "账本"
+      ],
+      "difficulty": "medium",
+      "category": "explain"
+    },
+    {
+      "id": "Q13",
+      "question": "为什么冬天汽车前挡风玻璃外面会结霜，而内侧不会？",
+      "expected_tags": [
+        "结霜",
+        "凝华",
+        "车内湿度",
+        "温差"
+      ],
+      "difficulty": "medium",
+      "category": "science"
+    },
+    {
+      "id": "Q14",
+      "question": "微波炉是如何加热食物的？",
+      "expected_tags": [
+        "微波",
+        "水分子",
+        "介电加热",
+        "电磁波"
+      ],
+      "difficulty": "easy",
+      "category": "science"
+    },
+    {
+      "id": "Q15",
+      "question": "什么是SDN软件定义网络？",
+      "expected_tags": [
+        "SDN",
+        "网络虚拟化",
+        "控制面",
+        "数据面"
+      ],
+      "difficulty": "hard",
+      "category": "tech"
+    },
+    {
+      "id": "Q16",
+      "question": "5G网络和4G网络的核心区别是什么？",
+      "expected_tags": [
+        "5G",
+        "4G",
+        "毫米波",
+        "低延时",
+        "万物互联"
+      ],
+      "difficulty": "medium",
+      "category": "tech"
+    },
+    {
+      "id": "Q17",
+      "question": "操作系统里的进程和线程有什么区别？",
+      "expected_tags": [
+        "进程",
+        "线程",
+        "并发",
+        "CPU",
+        "内存"
+      ],
+      "difficulty": "medium",
+      "category": "tech"
+    },
+    {
+      "id": "Q18",
+      "question": "HTTPS是如何保证安全传输的？",
+      "expected_tags": [
+        "HTTPS",
+        "TLS",
+        "SSL",
+        "证书",
+        "加密"
+      ],
+      "difficulty": "hard",
+      "category": "tech"
+    },
+    {
+      "id": "Q3",
+      "question": "什么是薛定谔方程？",
+      "expected_tags": [
+        "量子力学",
+        "波函数",
+        "不确定性原理",
+        "叠加态"
+      ],
+      "difficulty": "hard",
+      "category": "science"
+    },
+    {
+      "id": "Q19",
+      "question": "VPN的工作原理是什么？",
+      "expected_tags": [
+        "VPN",
+        "隧道",
+        "加密",
+        "翻墙"
+      ],
+      "difficulty": "medium",
+      "category": "tech"
+    },
+    {
+      "id": "Q20",
+      "question": "Docker容器和虚拟机有什么区别？",
+      "expected_tags": [
+        "Docker",
+        "容器",
+        "虚拟机",
+        "镜像",
+        "Namespace"
+      ],
+      "difficulty": "medium",
+      "category": "tech"
+    },
+    {
+      "id": "Q21",
+      "question": "什么是微服务架构？",
+      "expected_tags": [
+        "微服务",
+        "SOA",
+        "API网关",
+        "服务发现",
+        "容器化"
+      ],
+      "difficulty": "medium",
+      "category": "tech"
+    },
+    {
+      "id": "Q22",
+      "question": "如何设计一个高并发的秒杀系统？",
+      "expected_tags": [
+        "高并发",
+        "秒杀",
+        "Redis",
+        "MQ",
+        "限流"
+      ],
+      "difficulty": "hard",
+      "category": "tech"
+    },
+    {
+      "id": "Q23",
+      "question": "Git的内部工作原理是什么？",
+      "expected_tags": [
+        "Git",
+        "对象模型",
+        "SHA1",
+        "blob",
+        "tree",
+        "commit"
+      ],
+      "difficulty": "hard",
+      "category": "tech"
+    },
+    {
+      "id": "Q24",
+      "question": "什么是CAP定理？",
+      "expected_tags": [
+        "CAP定理",
+        "一致性",
+        "可用性",
+        "分区容错"
+      ],
+      "difficulty": "hard",
+      "category": "tech"
+    },
+    {
+      "id": "Q25",
+      "question": "数据库索引的原理是什么？B树和B+树有什么区别？",
+      "expected_tags": [
+        "索引",
+        "B树",
+        "B+树",
+        "数据库",
+        "查询优化"
+      ],
+      "difficulty": "hard",
+      "category": "tech"
+    },
+    {
+      "id": "Q26",
+      "question": "Python的GIL是什么？它是如何影响多线程性能的？",
+      "expected_tags": [
+        "GIL",
+        "Python",
+        "多线程",
+        "全局锁",
+        "并发"
+      ],
+      "difficulty": "hard",
+      "category": "tech"
+    },
+    {
+      "id": "Q27",
+      "question": "LRU缓存算法是如何实现的？",
+      "expected_tags": [
+        "LRU",
+        "缓存",
+        "链表",
+        "哈希表",
+        "算法"
+      ],
+      "difficulty": "medium",
+      "category": "tech"
+    },
+    {
+      "id": "Q28",
+      "question": "关系型数据库的事务隔离级别有哪些？",
+      "expected_tags": [
+        "事务",
+        "隔离级别",
+        "MVCC",
+        "脏读",
+        "可重复读"
+      ],
+      "difficulty": "hard",
+      "category": "tech"
+    },
+    {
+      "id": "Q32",
+      "question": "什么是零知识证明？",
+      "expected_tags": [
+        "零知识证明",
+        "密码学",
+        "zk-SNARK",
+        "隐私"
+      ],
+      "difficulty": "hard",
+      "category": "tech"
+    },
+    {
+      "id": "Q33",
+      "question": "CDN是如何加速内容分发的？",
+      "expected_tags": [
+        "CDN",
+        "边缘节点",
+        "缓存",
+        "DNS",
+        "就近访问"
+      ],
+      "difficulty": "medium",
+      "category": "tech"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+# Learning Scout 订阅源配置
+# feeds.yaml - AI/Tech RSS/Atom 订阅源
+
+feeds:
+  # ========== AI 科技媒体（中文）==========
+  - name: 机器之心
+    url: https://feeds.feedburner.com/jiqizhixin
+    tags: [AI, 科技, 机器学习]
+    enabled: true
+
+  - name: 量子位
+    url: https://qubit.cn/rss
+    tags: [AI, 科技, 前沿技术]
+    enabled: true
+
+  - name: 36氪-AI
+    url: https://36kr.com/feed
+    tags: [AI, 科技, 创业]
+    enabled: true
+
+  - name: AI前线
+    url: https://ai-front.github.io/feed.xml
+    tags: [AI, 深度学习, NLP]
+    enabled: true
+
+  # ========== AI 技术社区（中文）==========
+  - name: 知乎-AI
+    url: https://www.zhihu.com/rss
+    tags: [AI, 机器学习, 讨论]
+    enabled: true
+
+  - name: SegmentFault-AI
+    url: https://segmentfault.com/t/AI/blog/rss
+    tags: [AI, 技术, 开发]
+    enabled: true
+
+  # ========== AI 科技媒体（英文，内容更深度）==========
+  - name: Hacker News
+    url: https://hnrss.org/frontpage
+    tags: [tech, engineering, startups]
+    enabled: true
+
+  - name: MIT Technology Review
+    url: https://www.technologyreview.com/feed/
+    tags: [tech, AI, research]
+    enabled: false
+
+  - name: The Verge
+    url: https://www.theverge.com/rss/index.xml
+    tags: [tech, AI, gadgets]
+    enabled: false
+
+  # ========== AI 英文垂直博客 ==========
+  - name: OpenAI Blog
+    url: https://openai.com/blog/rss.xml
+    tags: [AI, GPT, research]
+    enabled: false
+
+  - name: Google AI Blog
+    url: https://blog.google/technology/ai/rss/
+    tags: [AI, Google, research]
+    enabled: false
+
+  - name: DeepMind Blog
+    url: https://deepmind.com/blog/feed/basic/
+    tags: [AI, DeepMind, research]
+    enabled: false
